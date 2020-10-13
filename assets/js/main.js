@@ -1,6 +1,6 @@
 /**
-* Template Name: Sailor - v2.2.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+* Template Name: Weerstation - v2.2.0
+* Template URL: https://bootstrapmade.com/Weerstation-free-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */

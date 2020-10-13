@@ -1,6 +1,6 @@
 /**
-* Template Name: Sailor - v2.2.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+* Template Name: Weerstation - v2.2.0
+* Template URL: https://bootstrapmade.com/Weerstation-free-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -1041,9 +1041,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Prijzen
 --------------------------------------------------------------*/
-.pricing .box {
+.Prijzen .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1053,7 +1053,7 @@ section {
   overflow: hidden;
 }
 
-.pricing h3 {
+.Prijzen h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
@@ -1063,7 +1063,7 @@ section {
   background: #f8f8f8;
 }
 
-.pricing h4 {
+.Prijzen h4 {
   font-size: 36px;
   color: #d9232d;
   font-weight: 600;
@@ -1071,19 +1071,19 @@ section {
   margin-bottom: 20px;
 }
 
-.pricing h4 sup {
+.Prijzen h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
-.pricing h4 span {
+.Prijzen h4 span {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
 
-.pricing ul {
+.Prijzen ul {
   padding: 0;
   list-style: none;
   color: #444444;
@@ -1092,29 +1092,29 @@ section {
   font-size: 14px;
 }
 
-.pricing ul li {
+.Prijzen ul li {
   padding-bottom: 16px;
 }
 
-.pricing ul i {
+.Prijzen ul i {
   color: #d9232d;
   font-size: 18px;
   padding-right: 4px;
 }
 
-.pricing ul .na {
+.Prijzen ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
 
-.pricing .btn-wrap {
+.Prijzen .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
 }
 
-.pricing .btn-buy {
+.Prijzen .btn-buy {
   background: #d9232d;
   display: inline-block;
   padding: 8px 35px 9px 35px;
@@ -1128,16 +1128,16 @@ section {
   transition: 0.3s;
 }
 
-.pricing .btn-buy:hover {
+.Prijzen .btn-buy:hover {
   background: #e1444d;
 }
 
-.pricing .featured h3 {
+.Prijzen .featured h3 {
   color: #fff;
   background: #d9232d;
 }
 
-.pricing .advanced {
+.Prijzen .advanced {
   width: 200px;
   position: absolute;
   top: 18px;
