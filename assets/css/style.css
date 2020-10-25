@@ -667,8 +667,10 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 85px 0;
+  padding: 15px 0;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clients img {
