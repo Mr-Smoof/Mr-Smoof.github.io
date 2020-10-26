@@ -1400,6 +1400,12 @@ section {
   margin-bottom: 20px;
 }
 
+.Weerstation-details .img-fluid{
+margin: auto;
+max-width: 75%;
+border-radius: 25%;
+}
+
 .Weerstation-details .Weerstation-details-carousel .owl-nav, .Weerstation-details .Weerstation-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
