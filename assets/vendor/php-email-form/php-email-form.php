@@ -31,7 +31,7 @@ if (!empty($_POST)) {
         $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
     } else {
         $mail = new PHPMailer();
-/*
+
         // specify SMTP credentials
         $mail->isSMTP();
         $mail->Host = 'smtp.mailtrap.io';
@@ -40,7 +40,7 @@ if (!empty($_POST)) {
         $mail->Password = '27f211b3fcad87';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 2525;
-*/
+
         $mail->setFrom($email, 'Mailtrap Website');
         $mail->addAddress('stijn.deschrijver11@gmail.com', 'Me');
         $mail->Subject = 'New message from your website';
