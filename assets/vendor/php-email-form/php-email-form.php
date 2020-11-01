@@ -34,14 +34,14 @@ if (!empty($_POST)) {
 
         // specify SMTP credentials
         $mail->isSMTP();
-        $mail->Host = 'smtp.mailtrap.io';
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'd5g6bc7a7dd6c7';
         $mail->Password = '27f211b3fcad87';
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 2525;
+        $mail->Port = 587;
 
-        $mail->setFrom($email, 'Mailtrap Website');
+        $mail->setFrom($email, 'Mr. Smoof');
         $mail->addAddress('stijn.deschrijver11@gmail.com', 'Me');
         $mail->Subject = 'New message from your website';
 
