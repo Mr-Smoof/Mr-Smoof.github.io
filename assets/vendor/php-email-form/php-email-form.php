@@ -1,10 +1,10 @@
 <?php
-
+/*
 use PHPMailer\PHPMailer\PHPMailer;
 require __DIR__ . '/vendor/autoload.php';
-
+*/
 $errors = [];
-$errorMessage = '';
+$errorMessage = 'error';
 
 if (!empty($_POST)) {
     $name = $_POST['name'];
@@ -31,7 +31,7 @@ if (!empty($_POST)) {
         $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
     } else {
         $mail = new PHPMailer();
-
+/*
         // specify SMTP credentials
         $mail->isSMTP();
         $mail->Host = 'smtp.mailtrap.io';
@@ -40,9 +40,9 @@ if (!empty($_POST)) {
         $mail->Password = '27f211b3fcad87';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 2525;
-
+*/
         $mail->setFrom($email, 'Mailtrap Website');
-        $mail->addAddress('piotr@mailtrap.io', 'Me');
+        $mail->addAddress('stijn.deschrijver11@gmail.com', 'Me');
         $mail->Subject = 'New message from your website';
 
         // Enable HTML if needed
