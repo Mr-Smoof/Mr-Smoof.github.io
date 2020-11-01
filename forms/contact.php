@@ -18,11 +18,29 @@
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
+  if(isset($_POST['submit'])){
+    $msg = 'Name: ' .$_POST['name'] ."\n"
+        .'Email: ' .$_POST['email'] ."\n"
+        .'Phone: ' .$_POST['phone'] ."\n"
+        .'Message: ' .$_POST['message'];
+
+ $go =   mail($to, $subject,  $msg, $headers);
+
+
+   if(!$go) {   
+       echo "Something went wrong.";// error
+      } else {
+        echo "Message was send";// correct
+
+         }
+
+} 
+  /*
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
-
+*/
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
   $contact->smtp = array(
