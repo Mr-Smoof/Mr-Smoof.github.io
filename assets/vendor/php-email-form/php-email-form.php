@@ -1,8 +1,8 @@
 <?php
-/*
+
 use PHPMailer\PHPMailer\PHPMailer;
-require __DIR__ . '/vendor/autoload.php';
-*/
+require __DIR__ . '..forms/contact.php';
+
 $errors = [];
 $errorMessage = 'error';
 
