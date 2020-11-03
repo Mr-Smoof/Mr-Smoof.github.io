@@ -5,7 +5,7 @@ require __DIR__ . '..forms/contact.php';
 
 $errors = [];
 $errorMessage = 'error';
-
+/*
 if (!empty($_POST)) {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -40,7 +40,7 @@ if (!empty($_POST)) {
         $mail->Password = '27f211b3fcad87';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
-
+*/
         $mail->setFrom($email, 'Mr. Smoof');
         $mail->addAddress('stijn.deschrijver11@gmail.com', 'Me');
         $mail->Subject = 'New message from your website';
