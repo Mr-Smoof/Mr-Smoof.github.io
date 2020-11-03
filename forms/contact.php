@@ -27,8 +27,8 @@
   
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
-    'username' => 'd5g6bc7a7dd6c7',
-    'password' => '27f211b3fcad87',
+    'username' => 'ampelserver@gmail.com',
+    'password' => 'hzagkfswzerknila',
     'port' => '587'
   );
   

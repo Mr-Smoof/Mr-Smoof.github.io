@@ -1,11 +1,11 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-require __DIR__ . '..forms/contact.php';
+//use PHPMailer\PHPMailer\PHPMailer;
+//require __DIR__ . '..forms/contact.php';
 
 $errors = [];
 $errorMessage = 'error';
-/*
+
 if (!empty($_POST)) {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -36,13 +36,13 @@ if (!empty($_POST)) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'd5g6bc7a7dd6c7';
-        $mail->Password = '27f211b3fcad87';
+        $mail->Username = 'ampelserver@gmail.com';
+        $mail->Password = 'hzagkfswzerknila';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 */
         $mail->setFrom($email, 'Mr. Smoof');
-        $mail->addAddress('stijn.deschrijver11@gmail.com', 'Me');
+        $mail->addAddress('ampelserver@gmail.com', 'Me');
         $mail->Subject = 'New message from your website';
 
         // Enable HTML if needed
